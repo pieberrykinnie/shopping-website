@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/**
+* Login css
+*/
+.login-wrapper {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  min-width: 400px;
+}
+
+.main {
+  min-height: 100vh;
+  background-image: url('../src/draft/thangnd/background-login.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+}
+
+.label-input {
+  font-weight: 500;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: small;
+}
+
+.link:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+.button-login {
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.button-login:hover {
+  cursor: pointer;
+}
+
+.prepend {
+  display: flex;
+  padding: 5px 10px;
+  align-items: center;
+  background-color: darkgrey;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.whole-container {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.info-div {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+}
+
+.payment-method {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.card-container:hover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.card-container {
+  transition: .5s;
+
+}
+
+.cardWrapper:hover {
+  z-index: 1000;
+  transition: .5s ease;
+  transform: scale(1.1);
+}
+
+.cardWrapper {
+  /* z-index: 1; */
+  position: relative;
+  transition: .5s ease;
+}
+
+
+/* Cart */
+.product {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-image {
+  width: 150px;
+  padding-right: 20px;
+}
+
+.no-of-products {
+  display: flex;
+  vertical-align: center;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.img-container > .ant-image {
+  width: 100%;
+}
+
+.imgIcon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
